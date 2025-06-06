@@ -1,6 +1,3 @@
-#!name=波波老师自用Premium
-#!desc=波波老师自用Premium
-#!category=😍BOBO Premium
 #!homepage=https://github.com/BOBOLAOSHIV587/Rules
 
 
@@ -139,10 +136,6 @@ http-response ^https:\/\/.*\.(intsig\.net|camscanner\.com) script-path=https://r
 
 # > 插画世界-P站画师创作约稿平台解锁Vip&去开屏广告
 http-response ^https:\/\/api2\.vilipix\.com\/api\/v\d\/user\/current script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/ChaHuaShiJie/JS/CHSJ.js, requires-body=true, timeout=60, tag=插画世界-P站画师创作约稿平台解锁Vip&去开屏广告
-
-
-# > ChatGPT 解锁 Plus 订阅
-http-response ^https?:\/\/ios\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/ChatGPT/JS/ChatGPTPlusCrack.js, requires-body=true, timeout=60, tag=ChatGPTPlusCrack
 
 
 # > Craft解锁Premium
